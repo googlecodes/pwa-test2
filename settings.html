@@ -14,15 +14,27 @@
 
 <body>
     <header>
-        <img src="src/img/back.svg" alt="Back" width="24" height="24" class="topIcon"
-            onclick="location.href='index.html'">
         <h3>Настройки</h3>
-        <img src="src/img/info.svg" alt="Info" width="24" height="24" class="topIcon"
-            onclick="alert('Это раздел с настройками.')">
     </header>
     <main>
-        <button onclick="requestNotificationPermission()">Включить уведомления</button>
+        <div class="notifications">
+            <h2>Уведомления</h2>
+
+            <button onclick="requestNotificationPermission()" class=".settingsButton">
+                <img src="src/img/notification.svg" alt="Уведомления" width="24" height="24" class="tabIcon">
+                Включить уведомления
+            </button>
+        </div>
+
     </main>
+    <footer>
+        <img src="src/img/news.svg" alt="Новости" width="28" height="28" class="tabIcon"
+            onclick="location.href='index.html'">
+
+
+        <img src="src/img/more.svg" alt="Настройки" width="28" height="28" class="tabIcon"
+            onclick="location.href='settings.html'">
+    </footer>
     <script src="src/scripts/service-worker.js"></script>
     <script src="src/scripts/notifications.js"></script>
 </body>

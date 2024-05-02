@@ -11,8 +11,8 @@ function requestNotificationPermission() {
 }
 
 function showNotification() {
-    const notificationTitle = 'News PWA';
-    const notificationBody = 'Вы подключили уведомления!';
+    const notificationTitle = 'Новости';
+    const notificationBody = 'Хорошие новости! Вы подключили уведомления!';
     const notificationIcon = 'icon.png';
 
     const notification = new Notification(notificationTitle, {

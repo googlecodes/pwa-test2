@@ -12,10 +12,9 @@ self.addEventListener('fetch', event => {
 });
 
 self.addEventListener('push', event => {
-    console.log('Push event', event);
-
-    const notificationTitle = 'News PWA';
-    const notificationBody = 'Вы подключили уведомления!';
+    const payload = event.data.json();
+    const notificationTitle = payload.title || 'News PWA';
+    const notificationBody = payload.body || 'Вы подключили уведомления!';
     const notificationIcon = 'icon.png';
 
     event.waitUntil(
