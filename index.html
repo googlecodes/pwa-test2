@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="cornflowerblue">
+    <title>Главная - Новостное PWA</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <img src="src/img/Icon.svg" alt="News PWA" width="24" height="24" class="topIcon">
+        <h3>Новостное PWA</h3>
+        <img src="src/img/settings.svg" alt="Settings" width="24" height="24" class="topIcon"
+            onclick="location.href='settings.html'">
+    </header>
+    <main>
+        <article>
+            <h1>Web Push для веб-приложений на iOS и iPad</h1>
+            <p>
+                <a href="https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/">Сегодня</a> также
+                выходит первая бета-версия Safari 16.4. Это огромный релиз, содержащий более 135 функций WebKit, включая
+                регулярные выражения для поиска за кадром, импорт карт, автономные просмотры, синтаксис диапазона
+                медиазапросов,
+                @property, настройку размера шрифта, декларативный теневой DOM и многое другое. Мы подробно расскажем об
+                этих новых
+                функциях WebKit, когда выйдет Safari 16.4. А пока вы можете ознакомиться с полным списком новых функций
+                и исправлений в
+                примечаниях к выпуску Safari 16.4.
+            </p>
+            <p><cite>Apple,<br>16 февраля, 2023</cite></p>
+        </article>
+        <hr>
+    </main>
+
+    <script src="src/scripts/service-worker.js"></script>
+    <script src="src/scripts/notifications.js"></script>
+</body>
+
+</html>

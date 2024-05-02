@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="cornflowerblue">
+    <title>Настройки</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="src/styles/main.css">
+</head>
+
+<body>
+    <header>
+        <img src="src/img/back.svg" alt="Back" width="24" height="24" class="topIcon"
+            onclick="location.href='index.html'">
+        <h3>Настройки</h3>
+        <img src="src/img/info.svg" alt="Info" width="24" height="24" class="topIcon"
+            onclick="alert('Это раздел с настройками.')">
+    </header>
+    <main>
+        <button onclick="requestNotificationPermission()">Включить уведомления</button>
+    </main>
+    <script src="src/scripts/service-worker.js"></script>
+    <script src="src/scripts/notifications.js"></script>
+</body>
+
+</html>
