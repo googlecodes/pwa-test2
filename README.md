@@ -8,7 +8,6 @@
 - [ ] Push-уведомления должны работать
 
 ## Представление
-![](https://github.com/vcusnx/pwa/blob/master/sc.png)
 
 
 ## Немного мыслей
