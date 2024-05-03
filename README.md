@@ -8,7 +8,7 @@
 - [ ] Push-уведомления должны работать
 
 ## Представление
-![](https://github.com/vcusnx/pwa/blob/master/sc.png)
+![](https://github.com/vcusnx/pwa/sc.png)
 
 ## Немного мыслей
 Еще не разобрался как сделать нормальные уведомления без сторонних сервисов по типу Firebase или OneSignal.
