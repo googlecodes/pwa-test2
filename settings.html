@@ -20,20 +20,26 @@
         <div class="notifications">
             <h2>Уведомления</h2>
 
-            <button onclick="requestNotificationPermission()" class=".settingsButton">
-                <img src="src/img/notification.svg" alt="Уведомления" width="24" height="24" class="tabIcon">
-                Включить уведомления
+            <button onclick="requestNotificationPermission()" class=".settingsButton" type="button">
+                <img src="src/img/notification.svg" alt="Уведомления" width="28" height="26" class="buttonIcon">
+                <h5>Включить уведомления</h5>
             </button>
         </div>
 
     </main>
     <footer>
-        <img src="src/img/news.svg" alt="Новости" width="28" height="28" class="tabIcon"
-            onclick="location.href='index.html'">
-
-
-        <img src="src/img/more.svg" alt="Настройки" width="28" height="28" class="tabIcon"
-            onclick="location.href='settings.html'">
+        <div class="tabSections">
+            <div class="tabSection">
+                <img src="src/img/news.svg" alt="Новости" width="28" height="28" class="tabIcon"
+                    onclick="location.href='index.html'">
+                <h6 class="tabText">Новости</h6>
+            </div>
+            <div class="tabSection">
+                <img src="src/img/more.svg" alt="Настройки" width="28" height="28" class="tabIcon"
+                    onclick="location.href='settings.html'">
+                <h6 class="tabText">Новости</h6>
+            </div>
+        </div>
     </footer>
     <script src="src/scripts/service-worker.js"></script>
     <script src="src/scripts/notifications.js"></script>
