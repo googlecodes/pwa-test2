@@ -1,15 +1,10 @@
-# Простое PWA
+# Simple PWA
 
-Простое PWA с Push-уведомлениями.
+This is simple PWA application written in pure JS, HTML and CSS for iOS (16.4+).
 
 ## To Do
-- [x] Сделать PWA около нативный вид
-- [x] Залить на хостинг
-- [ ] Push-уведомления должны работать
+- [x] Almost native UI
+- [x] Deploy
+- [ ] Push-notifications must work
 
-## Представление
-![](https://repository-images.githubusercontent.com/794713045/a1daafe6-7441-43b6-977d-c128a5d4dc08)
-
-## Немного мыслей
-Еще не разобрался как сделать нормальные уведомления без сторонних сервисов по типу Firebase или OneSignal.
-Хочется сделать исключительно на чистом JS + HTML + CSS, поэтому не спешу подколючать сторонние библиотеки.
+![Presentaton of PWA in Russian](https://repository-images.githubusercontent.com/794713045/a1daafe6-7441-43b6-977d-c128a5d4dc08)
